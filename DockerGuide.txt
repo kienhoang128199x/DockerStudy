@@ -1,0 +1,13 @@
+// build image from Dockerfile
+docker build -t [image_name_output] [folder_contain_Dockerfile]
+
+// run docker container incase you want to interract
+docker run -it [image_name] bash
+//if not 
+docker run [image_name]
+
+// show docker container
+docker ps -a
+
+// stop docker
+docker stop [CONTAINER ID ]
