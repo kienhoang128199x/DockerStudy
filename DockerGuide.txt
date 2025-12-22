@@ -11,3 +11,6 @@ docker ps -a
 
 // stop docker
 docker stop [CONTAINER ID ]
+=============Container is located in folder:======================
+/var/lib/docker/overlay2/def42a7a8cb417efec08239461230cd8f57b5972268c02d69e66efed61e98057/merged
+=====================================
